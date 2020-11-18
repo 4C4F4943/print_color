@@ -16,10 +16,11 @@ void print_color(string txt, string color)
     found = true;
     }
     }
+    /*
     cout<<found;
     if(found == false){
         cout << "\033[1;"+color_codes[ran_int]+"mThe color wasnt found.\033[0m\n";
-    }
+    }*/
     cout<<res;
 }
 void text_background(string txt, string color)
@@ -34,10 +35,10 @@ void text_background(string txt, string color)
     if(color_names[i] == color){
     res = "\033[7;"+color_codes[i]+"m"+txt+ "\033[0m";
     }
-    }
+    }/*
     if(found == false){
         cout << "\033[7;"+color_codes[ran_int]+"mThe color wasnt found.\033[0m\n";
-    }
+    }*/
     cout<<res;
     
 
