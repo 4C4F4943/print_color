@@ -1,7 +1,14 @@
 #include<iostream>
 using namespace std;
 
+/*
+############## This is a simple program that can print out text to the terminal ##################
+i based the program of the regular command that allows you to print color to the terminal like so:
 
+res = "\033[1;36mThis is cyan text!\033[0m";
+
+but i found this annoying to do multiple times so i made this .
+*/
 void print_color(string txt, string color)
 {
     string color_codes[] = {"30","31","32","33","34","35","36","37"};
