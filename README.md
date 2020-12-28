@@ -52,5 +52,19 @@ string res = "\033[7;"+color_codes[INDEX_OF_COLOR_YOU_WANT]+"m"+txt+ "\033[0m\n"
 cout<<res;
 }
 ```
+You can also print some rainbow text or moving rainbow text with the following script. 
+```python
+from rainbow import print_rainbow, animate_rainbow
+
+#for the animeted you can do this or uncomment some comments to print it directly. set background to "-b" to make the background rainbow.
+x = []
+x.append(animate_rainbow("hullo there my good friend ",background=""))
+print("\n")
+for i in range(len(x[0])):
+    print(x[0][i],end="\r")
+    time.sleep(0.08)
+#you van also print it directly by printing it instead of returning it.
+print(print_rainbow("hullo there my good friend ",background="-b")
+```
 So this is it :).
 I got the ascii art from <a href="https://www.asciiart.eu">ascii archive</a>. Also no hate to microsoft just like linux.
