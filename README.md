@@ -1,25 +1,3 @@
-<pre>
-        \ \
-         \ \  ___,.,
-  _,..--=";"*^^     5
- *         {         %
- {          }         }
-  }          }        %
-  %          { ___,,.-"%
-   %_,..--==""^        %
-   L                   &
-   V  Microsloth        L
-   [                    J
-   J                    J
-   ;                    L
-  #                     %
-  P                     $
-  P                     L
-  P                    K
-   L                  J
-    L                P
-sdm  "=e,_________,s"
-</pre>
 
 # Print color
 Have you ever felt the need to clutter you're terminal with colors in cpp. Well i defenitly have and here is the result a piece of code that can print out colored text to the terminal. I does it in a pretty standard way where in cpp you have: 
@@ -67,4 +45,3 @@ for i in range(len(x[0])):
 print(print_rainbow("hullo there my good friend ",background="-b")
 ```
 So this is it :).
-I got the ascii art from <a href="https://www.asciiart.eu">ascii archive</a>. Also no hate to microsoft just like linux.
